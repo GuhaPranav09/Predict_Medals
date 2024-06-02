@@ -51,3 +51,6 @@ error_ratio =  error_by_team / medals_by_team
 error_ratio = error_ratio[np.isfinite(error_ratio)]
 error_ratio.plot.hist()
 plt.show()
+
+error_ratio.sort_values()
+
